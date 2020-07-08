@@ -28,9 +28,14 @@ header {
   height: 270px;
 }
 
+.section-title__container {
+  max-width: 500px;
+}
+
 .section-title {
   margin: 0;
   padding: 10px;
+  border-bottom: 2px solid black;
 }
 
 .header__svg {

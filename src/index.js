@@ -1,12 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {
+  faBars,
+  faEnvelope
+} from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons'
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+library.add(
+  faBars,
+  faEnvelope,
+  fab
+);
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

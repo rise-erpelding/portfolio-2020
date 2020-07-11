@@ -4,7 +4,8 @@ import { BrowserRouter } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faBars,
-  faEnvelope
+  faEnvelope,
+  faTimes
 } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import './index.css';
@@ -14,6 +15,7 @@ import * as serviceWorker from './serviceWorker';
 library.add(
   faBars,
   faEnvelope,
+  faTimes,
   fab
 );
 

@@ -74,7 +74,7 @@
 
 header {
   min-height: 150px;
-  background-color: gainsboro;
+  /* background-color: gainsboro; */
 }
 
 .section-title__container {
@@ -90,7 +90,7 @@ header {
 
 main {
   padding: 20px 80px;
-  background-color: silver;
+  /* background-color: silver; */
   min-height: calc(100vh - 229px - 30px);
 }
 
@@ -100,7 +100,7 @@ footer {
   /* width: 100vw; */
   /* position: fixed; */
   bottom: 0;
-  background-color: gainsboro;
+  /* background-color: gainsboro; */
 }
 
 footer > div {

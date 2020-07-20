@@ -7,7 +7,7 @@ const Footer = (props) => (
     © {new Date().getFullYear()} Rise Erpelding
     {' '}
     {/* Icon dump */}
-    <FontAwesomeIcon icon="bars" />
+
           <FontAwesomeIcon icon="envelope" />
           <FontAwesomeIcon icon="times" />
           <FontAwesomeIcon icon={['fab', 'linkedin']} />

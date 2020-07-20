@@ -18,7 +18,7 @@ class NavBar extends Component {
 
   render() {
     const navbarClass = this.state.menuClicked ? "navbar show-menu" : "navbar";
-    const navbarMenuClass = this.state.menuClicked ? "navbar__menu open" : "navbar__menu";
+    // const navbarMenuClass = this.state.menuClicked ? "navbar__menu open" : "navbar__menu";
 
     return (
       <div className="navbar__container">
@@ -26,10 +26,33 @@ class NavBar extends Component {
           <FontAwesomeIcon className="navbar__bars" icon="bars" />
         </button>
         <ul className={navbarClass}>
-          <li><Link className="hvr-sweep-to-right" to="/">Home</Link></li>
-          <li><Link className="hvr-sweep-to-right" to="/about">About</Link></li>
-          <li><Link className="hvr-sweep-to-right" to="/projects">Projects</Link></li>
-          <li><Link className="hvr-sweep-to-right" to="/resume">Resume</Link></li>
+          <li>
+            <span className="navbar__link--border">
+              <Link className="navbar__link" to="/">
+                Home
+              </Link>
+            </span></li>
+          <li>
+            <span className="navbar__link--border">
+              <Link className="navbar__link" to="/about">
+                About
+              </Link>
+            </span>
+          </li>
+          <li>
+            <span className="navbar__link--border">
+              <Link className="navbar__link" to="/projects">
+                Projects
+              </Link>
+            </span>
+          </li>
+          <li>
+            <span className="navbar__link--border">
+              <Link className="navbar__link" to="/resume">
+                Resume
+              </Link>
+            </span>
+          </li>
           <li>Contact</li>
         </ul>
       </div>

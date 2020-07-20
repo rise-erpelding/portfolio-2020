@@ -4,7 +4,11 @@ import Header from '../../components/Header/Header';
 const About = (props) => (
   <>
     <Header section="About" />
-    <main>
+    <main
+      style={{
+        textAlign: `left`,
+      }}
+    >
       <p>
         I have been fascinated by web design since I realized that I could use HTML to change the design of my blog in high school. In the years since, as I became a teacher and instructional designer, I found that in my projects there was usually something I was hoping to customize, something more I was wanting to build to make my idea work, and that coding was the best way to accomplish it. Now, my dream is to help other people make their ideas come to life.
       </p>

@@ -14,7 +14,11 @@ const Projects = (props) => {
   return (
     <>
     <Header section="Projects" />
-    <main>
+    <main
+      style={{
+        textAlign: `left`,
+      }}
+    >
       <Project
         key={farmpicksProj.id}
         title={farmpicksProj.title}

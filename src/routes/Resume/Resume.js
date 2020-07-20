@@ -1,12 +1,14 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
-import { SectionTitle, ResHeading, ResSectionHeading } from '../../utils/headings';
+import { ResHeading, ResSectionHeading } from '../../utils/headings';
 
-const Resume = (props) => (
+const Resume = () => (
   <>
-    <Header section="Hi! I'm Rise." />
-    <main>
-      <SectionTitle title="Resume" />
+    <Header section="Resume" />
+    <main 
+      style={{
+      textAlign: `left`,
+    }}>
       <ResHeading heading="Summary" />
       <p>
         I am a full-stack JavaScript developer proficient in ES6, React, Node, and PostgreSQL

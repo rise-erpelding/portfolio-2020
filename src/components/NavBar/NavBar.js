@@ -12,7 +12,6 @@ class NavBar extends Component {
 
   clickMenu = () => {
     const toggleState = !this.state.menuClicked;
-    console.log(toggleState);
     this.setState({menuClicked: toggleState})
   }
 
@@ -27,7 +26,9 @@ class NavBar extends Component {
       <li key={index + '-' + link.name}>
         <NavLink activeClassName="navbar__link--active" className="navbar__link" to={link.path}>
           {link.name}
+          <div className="navbar__underline"></div>
         </NavLink>
+        
       </li>
     ));
 
@@ -40,10 +41,12 @@ class NavBar extends Component {
           <li>
             <Link className="navbar__link" to="/">
               Home
+
+            <div className="navbar__underline"></div>
             </Link>
           </li>
           {navbarLinks}
-          <li>Contact</li>
+          {/* <li>Contact</li> */}
         </ul>
       </div>
     );

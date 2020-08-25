@@ -6,6 +6,7 @@ const Header = (props) => (
     <div className="section-title__container">
       <SectionTitle title={props.section} />
     </div>
+    <div className="section-title__underline"></div>
   </header>
 );
 

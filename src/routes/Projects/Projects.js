@@ -7,11 +7,14 @@ import farmpicksMobile from '../../images/farmpicksMobile.gif';
 import greQuizApp from '../../images/greQuizApp.gif';
 import rabbitHole from '../../images/rabbitHole.gif';
 import rabbitHoleMobile from '../../images/rabbitHoleMobile.gif';
+import mixEd from '../../images/mixEd.gif';
+import mixEdMobile from '../../images/mixEdMobile.gif';
 
 const Projects = (props) => {
   const quizProj = projectStore[0];
   const rabbitHoleProj = projectStore[1];
   const farmpicksProj = projectStore[2];
+  const mixEdProj = projectStore[3];
 
   return (
     <>
@@ -21,6 +24,17 @@ const Projects = (props) => {
         textAlign: `left`,
       }}
     >
+      <Project
+        key={mixEdProj.id}
+        title={mixEdProj.title}
+        liveLink={mixEdProj.liveLink}
+        frontEndRepo={mixEdProj.frontEndRepo}
+        backEndRepo={mixEdProj.backEndRepo}
+        mobileImgSrc={mixEdMobile}
+        imgSrc={mixEd}
+        imgAlt="mix ed app gif"
+        summary={mixEdProj.summary}
+      />
       <Project
         key={farmpicksProj.id}
         title={farmpicksProj.title}

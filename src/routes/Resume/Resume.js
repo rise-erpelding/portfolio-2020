@@ -28,6 +28,17 @@ const Resume = () => (
         </li>
       </ul>
       <ResHeading heading="Recent Projects" />
+      <ResSectionHeading heading="Mix Ed" />
+      <ul>
+        <li>
+        Full-stack web app that enables teachers to create homogeneous or heterogeneous student
+        groups based on student data.
+        </li>
+        <li>
+          Tech: React, React Router, Node.js, Express.js, JavaScript(ES6), CSS3, PostgreSQL,
+          Jest, Mocha, Chai
+        </li>
+      </ul>
       <ResSectionHeading heading="FarmPicks" />
       <ul>
         <li>

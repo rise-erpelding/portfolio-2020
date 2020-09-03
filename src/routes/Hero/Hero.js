@@ -1,17 +1,14 @@
 import React from 'react';
-import Header from '../../components/Header/Header';
-import self from '../../images/self.jpeg';
+// import Header from '../../components/Header/Header';
+
 
 const Hero = (props) => (
   <>
-    <Header section="Hi! I'm Rise." />
+    {/* <Header section="Hi! I'm Rise." /> */}
     <main className="hero">
-      <div>
-        <img className="hero__self" src={self} alt="Rise" />
-      </div>
       <p>
-        I am a full-stack JavaScript developer proficient in ES6, React, Node, and PostgreSQL with
-        six years’ experience in STEM education. I am passionate about learning technologies and
+        Hi! I'm <span className="hero__gradient">Rise</span>. I am a full-stack <span className="hero__gradient">JavaScript</span> developer proficient in ES6, React, Node, and PostgreSQL with
+        six years’ experience in STEM education. I am <span className="hero__gradient">passionate</span> about learning technologies and
         online learning.
       </p>
     </main>

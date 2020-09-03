@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
+import self from '../../images/self.jpeg';
 
 const About = (props) => (
   <>
@@ -7,6 +8,9 @@ const About = (props) => (
     <main
       className="about"
     >
+            <div>
+        <img className="about__img" src={self} alt="Rise" />
+      </div>
       <p>
         My name is Rise, and I studied sociology in college because I thought I didn&apos;t have
         the talent for engineering, science, or math. I found my way into education through

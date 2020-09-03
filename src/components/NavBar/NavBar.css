@@ -1,0 +1,115 @@
+.navbar__container {
+  text-align: right;
+}
+
+/* styling the navbar links: */
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding: 5px 10px;
+}
+
+.navigation > li {
+  padding: 10px 10px;
+  font-size: 1.2em;
+  /* text-transform: uppercase; */
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: #09203f;
+  /* font-weight: bold; */
+}
+
+/* styling navbar links hover & active: */
+.navbar__link:hover,
+.navbar__link--active {
+  background: #283c86;
+  background: -webkit-linear-gradient(to left, #45a247, #283c86);
+  background: linear-gradient(to left, #45a247, #283c86);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  transition: 0.2s ease-in;
+}
+
+.navbar__link--active > div {
+  background: #283c86;
+  background: -webkit-linear-gradient(to left, #45a247, #283c86);
+  background: linear-gradient(to left, #45a247, #283c86);
+}
+
+/* styling navbar hamburger button */
+.navbar__button {
+  margin: 10px;
+  height: 40px;
+  width: 50px;
+  position: relative;
+  background-color: transparent;
+  border: none;
+}
+
+.navbar__icon {
+  font-size: 2.4em;
+  color: #09203f;
+}
+
+/* styling show/hide of navbar menu */
+.navbar {
+  display: none;
+  position: absolute;
+  right: 0px;
+  top: 60px;
+}
+
+.show-menu {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  background: rgba(210, 227, 249, 0.8);
+  /* background: #283c86;
+  background: -webkit-linear-gradient(to left, #397960, #283c86);
+  background: linear-gradient(to left, #397960, #283c86); */
+  /* border: 1px solid black; */
+}
+
+.navbar__underline {
+  display: none;
+}
+
+/* tablet-sized screen */
+@media screen and (min-width: 500px) {
+
+}
+
+/* computer-sized screen */
+@media screen and (min-width: 800px) {
+  .navbar__button {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+    position: static;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    padding: 5px 10px;
+  }
+
+  .navbar__underline {
+    display: inline-block;
+    height: 3px;
+    width: 50%;
+  }
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './NavBar.css';
 
 class NavBar extends Component {
   constructor(props) {
@@ -35,19 +36,27 @@ class NavBar extends Component {
     return (
       <div className="navbar__container">
         <button className="navbar__button" onClick={this.clickMenu}>
-          <FontAwesomeIcon className="navbar__bars" icon="bars" />
+          {
+          this.state.menuClicked ?
+          <FontAwesomeIcon className="navbar__cross navbar__icon" icon="times" /> :
+          <FontAwesomeIcon className="navbar__bars navbar__icon" icon="bars" />
+          }
+          
         </button>
-        <ul className={navbarClass}>
-          <li>
-            <Link className="navbar__link" to="/">
-              Home
+        <nav role="navigation" className={navbarClass}>
+          <ul className="navigation">
+            <li>
+              <Link className="navbar__link" to="/">
+                Home
 
-            <div className="navbar__underline"></div>
-            </Link>
-          </li>
-          {navbarLinks}
-          {/* <li>Contact</li> */}
-        </ul>
+              <div className="navbar__underline"></div>
+              </Link>
+            </li>
+            {navbarLinks}
+            {/* <li>Contact</li> */}
+          </ul>
+        </nav>
+
       </div>
     );
   }

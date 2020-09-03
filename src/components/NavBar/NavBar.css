@@ -17,6 +17,7 @@
 }
 
 .navbar__link {
+  /* display: inline-block; */
   text-decoration: none;
   color: #09203f;
   /* font-weight: bold; */
@@ -109,7 +110,8 @@
 
   .navbar__underline {
     display: inline-block;
+    /* margin: 0 auto; */
     height: 3px;
-    width: 50%;
+    width: 100%;
   }
 }

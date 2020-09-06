@@ -35,6 +35,21 @@
 }
 
 /* about */
+.about__img--container {
+  text-align: center;
+}
+
+.about__img {
+  width: 30vw;
+  max-width: 300px;
+}
+
+.about {
+  text-align: left;
+  font-size: 1.1em;
+  padding: 0px 60px;
+  line-height: 170%;
+}
 
 /* projects */
 .project-gif--mobile {
@@ -164,6 +179,14 @@ footer {
     /* width: 600px; */
     max-height: 400px;
     margin: 0 auto;
+  }
+
+  .about__img {
+    padding: 30px 20px;
+  }
+
+  .about {
+    display: flex;
   }
 }
 

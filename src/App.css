@@ -1,6 +1,17 @@
-/* app */
+/* app & util components */
 .App {
   text-align: center;
+}
+
+.section-title {
+  margin: 0 5vw;
+  padding: 10px;
+  text-align: left;
+  font-family: 'Roboto Condensed';
+}
+
+.section-heading {
+  font-family: 'Roboto Condensed';
 }
 
 /* hero */
@@ -26,6 +37,58 @@
 /* about */
 
 /* projects */
+.project-gif--mobile {
+  display: block;
+  max-height: 98vh;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.project-gif--widescreen {
+  display: none;
+}
+
+.project {
+  margin: 5vh 5vw;
+  -webkit-box-shadow: 5px 5px 28px 5px rgba(0,0,0,0.1);
+  -moz-box-shadow: 5px 5px 28px 5px rgba(0,0,0,0.1);
+  box-shadow: 5px 5px 28px 5px rgba(0,0,0,0.1);
+  border: 1px solid #e8e8e8;
+}
+
+.project__info,
+.project__image {
+  padding: 3vh 5vw;
+}
+
+.project__image {
+  background-color: whitesmoke;
+}
+
+.project--description {
+  line-height: 170%;
+}
+
+.project__info > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #09203f;
+}
+
+.project__info > a:hover {
+  background: #283c86;
+  background: -webkit-linear-gradient(to left, #45a247, #283c86);
+  background: linear-gradient(to left, #45a247, #283c86);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  transition: 0.2s ease-in;
+}
 
 /* resume */
 
@@ -78,11 +141,50 @@ footer {
   }
 }
 
+@media screen and (min-width: 650px) {
+  .hero > p {
+    font-size: 2.3em;
+    padding: 10vh 10vw;
+  }
+}
+
 /* computer-sized screen */
 @media screen and (min-width: 800px) {
   .hero > p {
+    font-size: 2.7em;
+    padding: 7vh 10vw;
+  }
 
-    font-size: 2em;
-    padding: 10vh 15vw;
+  .project-gif--mobile {
+    display: none;
+  }
+  
+  .project-gif--widescreen {
+    display: block;
+    /* width: 600px; */
+    max-height: 400px;
+    margin: 0 auto;
+  }
+}
+
+
+
+/* XL-sized screen */
+@media screen and (min-width: 1000px) {
+  .hero > p {
+    font-size: 3em;
+    padding: 8vh 10vw;
+  }
+
+  .project {
+    display: flex;
+  }
+
+  .project__info {
+    padding: 0px 25px;
+  }
+
+  .project__image {
+    padding: 40px 20px;
   }
 }

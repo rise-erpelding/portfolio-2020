@@ -7,29 +7,6 @@ header {
   max-width: 500px;
 }
 
-.section-title {
-  margin: 0;
-  padding: 10px;
-  background: #283c86;
-  background: -webkit-linear-gradient(to left, #397960, #283c86);
-  background: linear-gradient(to left, #397960, #283c86);
-  background-size: 100%;
-  background-repeat: repeat;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-}
-
-.section-title__underline {
-  height: 3px;
-  background: #283c86;
-  background: -webkit-linear-gradient(to left, #45a247, #283c86);
-  background: linear-gradient(to left, #45a247, #283c86);
-  width: 70%;
-}
-
 .about__img {
   width: 30vw;
   max-width: 300px;
@@ -46,46 +23,9 @@ main {
   min-height: calc(100vh - 239px);
 }
 
-.project {
-  text-align: left;
-  /* padding: 0px 5vw; */
-}
 
-.project--description {
-  padding: 0px 5vw;
-}
 
-.project > a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #09203f;
-}
 
-.project > a:hover {
-  background: #283c86;
-  background: -webkit-linear-gradient(to left, #45a247, #283c86);
-  background: linear-gradient(to left, #45a247, #283c86);
-  background-size: 100%;
-  background-repeat: repeat;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  transition: 0.2s ease-in;
-}
-
-.project-gif--mobile {
-  display: block;
-  max-height: 98vh;
-  max-width: 90vw;
-  margin: 0 auto;
-}
-
-.project-gif--widescreen {
-  display: none;
-}
 
 .about {
   text-align: left;
@@ -159,15 +99,7 @@ main {
     min-height: calc(100vh - 220px); /* header, footer, main padding heights */
   }
 
-  .project-gif--mobile {
-    display: none;
-  }
-  
-  .project-gif--widescreen {
-    display: block;
-    width: 600px;
-    margin: 0 auto;
-  }
+
 
   .project--description {
     padding: 0px 10vw;

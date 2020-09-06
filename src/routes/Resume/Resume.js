@@ -5,10 +5,7 @@ import { ResHeading, ResSectionHeading } from '../../utils/headings';
 const Resume = () => (
   <>
     <Header section="Resume" />
-    <main 
-      style={{
-      textAlign: `left`,
-    }}>
+    <main className="resume">
       <ResHeading heading="Summary" />
       <p>
         I am a full-stack JavaScript developer proficient in ES6, React, Node, and PostgreSQL

@@ -106,6 +106,10 @@
 }
 
 /* resume */
+.resume {
+  text-align: left;
+  padding: 10px 5vw;
+}
 
 /* footer */
 footer {

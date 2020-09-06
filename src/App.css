@@ -180,7 +180,6 @@ footer {
   
   .project-gif--widescreen {
     display: block;
-    /* width: 600px; */
     max-height: 400px;
     margin: 0 auto;
   }

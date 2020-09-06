@@ -10,7 +10,7 @@ import rabbitHoleMobile from '../../images/rabbitHoleMobile.gif';
 import mixEd from '../../images/mixEd.gif';
 import mixEdMobile from '../../images/mixEdMobile.gif';
 
-const Projects = (props) => {
+const Projects = () => {
   const quizProj = projectStore[0];
   const rabbitHoleProj = projectStore[1];
   const farmpicksProj = projectStore[2];

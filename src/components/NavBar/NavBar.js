@@ -53,7 +53,6 @@ class NavBar extends Component {
               </Link>
             </li>
             {navbarLinks}
-            {/* <li>Contact</li> */}
           </ul>
         </nav>
 

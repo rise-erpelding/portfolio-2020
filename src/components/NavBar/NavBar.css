@@ -13,7 +13,6 @@
 .navigation > li {
   padding: 10px 10px;
   font-size: 1.2em;
-  /* text-transform: uppercase; */
 }
 
 .navbar__link {
@@ -22,7 +21,6 @@
   color: #09203f;
   text-transform: uppercase;
   cursor: pointer;
-  /* font-weight: bold; */
 }
 
 /* styling navbar links hover & active: */
@@ -73,21 +71,11 @@
 .show-menu {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   background: rgba(245,245,245,0.9);
-  /* background: #283c86;
-  background: -webkit-linear-gradient(to left, #397960, #283c86);
-  background: linear-gradient(to left, #397960, #283c86); */
-  /* border: 1px solid black; */
 }
 
 .navbar__underline {
   display: none;
-}
-
-/* tablet-sized screen */
-@media screen and (min-width: 500px) {
-
 }
 
 /* computer-sized screen */
@@ -112,7 +100,6 @@
 
   .navbar__underline {
     display: inline-block;
-    /* margin: 0 auto; */
     height: 3px;
     width: 100%;
   }

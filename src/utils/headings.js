@@ -1,4 +1,3 @@
-// TODO: turn these all into modern arrow functions
 import React from 'react';
 
 export function SectionTitle(props) {

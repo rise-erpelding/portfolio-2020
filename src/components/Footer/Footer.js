@@ -22,7 +22,6 @@ const Footer = (props) => (
           icon="envelope"
         />
       </a>
-      {/* <FontAwesomeIcon className="footer__icon--times" icon="times" /> */}
     </div>
     <div className="footer__copyright">
       © {new Date().getFullYear()} Rise Erpelding

@@ -1,10 +1,7 @@
 import React from 'react';
-// import Header from '../../components/Header/Header';
-
 
 const Hero = (props) => (
   <>
-    {/* <Header section="Hi! I'm Rise." /> */}
     <main className="hero">
       <p>
         Hi! I'm <span className="hero__gradient">Rise</span>. I am a full-stack <span className="hero__gradient">JavaScript</span> developer proficient in ES6, React, Node, and PostgreSQL with

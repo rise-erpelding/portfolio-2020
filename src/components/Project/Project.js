@@ -1,11 +1,21 @@
 import React from 'react';
 import { SectionHeading } from '../../utils/headings';
-
 const Project = (props) => {
+  console.log(props.technologies);
+  const technologies = props.technologies.map((logo, index) => 
+    <img
+        key={logo.name + index}
+        className={logo.className}
+        src={logo.iconSrc}
+        alt={logo.name + ' Icon'} />
+  )
   return (
     <section className="project">
       <div className="project__info">
       <SectionHeading heading={props.title} />
+      <div className="project__technologies">
+        {technologies}
+      </div>
       <a href={props.liveLink} target="_blank" rel="noopener noreferrer">
         Live App
       </a>

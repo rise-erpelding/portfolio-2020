@@ -71,6 +71,32 @@
   border: 1px solid #e8e8e8;
 }
 
+.project__info > h2 {
+  margin-bottom: 0;
+}
+
+.project__technologies {
+  padding-bottom: 20px;
+}
+
+.project__technologies--icon {
+  height: 30px;
+}
+
+.project__technologies--icon-node {
+  height: 50px;
+}
+
+.project__technologies--icon-express {
+  height: 45px;
+}
+
+.project__technologies--icon,
+.project__technologies--icon-node,
+.project__technologies--icon-express {
+  padding: 5px;
+}
+
 .project__info,
 .project__image {
   padding: 3vh 5vw;

@@ -15,7 +15,7 @@
 }
 
 /* hero */
-.hero > p {
+.hero > h1 {
   font-family: 'Roboto Condensed';
   font-size: 2em;
   padding: 10px 10vw;
@@ -154,14 +154,14 @@ footer {
 
 /* tablet-sized screen */
 @media screen and (min-width: 500px) {
-  .hero > p {
+  .hero > h1 {
     font-size: 2em;
     padding: 10vh 10vw;
   }
 }
 
 @media screen and (min-width: 650px) {
-  .hero > p {
+  .hero > h1 {
     font-size: 2.3em;
     padding: 10vh 10vw;
   }
@@ -169,7 +169,7 @@ footer {
 
 /* computer-sized screen */
 @media screen and (min-width: 800px) {
-  .hero > p {
+  .hero > h1 {
     font-size: 2.7em;
     padding: 7vh 10vw;
   }

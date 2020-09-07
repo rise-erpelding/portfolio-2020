@@ -35,7 +35,12 @@ class NavBar extends Component {
 
     return (
       <div className="navbar__container">
-        <button className="navbar__button" onClick={this.clickMenu}>
+        <button
+          type="button"
+          className="navbar__button"
+          onClick={this.clickMenu}
+          aria-label="menu"
+        >
           {
           this.state.menuClicked ?
           <FontAwesomeIcon className="navbar__cross navbar__icon" icon="times" /> :

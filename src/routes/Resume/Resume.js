@@ -149,7 +149,7 @@ const Resume = () => (
           accessibility, mobile-first development, and test-driven development.
         </li>
       </ul>
-      <ResSectionHeading heading="Florida State University | M.S., Instructional Systems and Learning Technology | GPA: 3.98" />
+      <ResSectionHeading heading="Florida State University | M.S., Instructional Systems and Learning Technology (Major in Online & Distance Learning) | GPA: 3.98" />
       <ul>
         <li>
           Completed 36-credit-hour online master’s degree program, learning about instructional

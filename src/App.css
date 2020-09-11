@@ -55,7 +55,7 @@
 .project-gif--mobile {
   display: block;
   max-height: 98vh;
-  max-width: 90vw;
+  max-width: 80vw;
   margin: 0 auto;
 }
 
@@ -177,6 +177,14 @@ footer {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+
+/* iPhone 6/7/8 */
+@media screen and (min-width: 500px) {
+  .project-gif--mobile {
+    max-width: 80vw;
+  }
+}
+
 
 /* tablet-sized screen */
 @media screen and (min-width: 500px) {

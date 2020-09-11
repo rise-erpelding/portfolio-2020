@@ -78,6 +78,11 @@
   display: none;
 }
 
+/* iPhone 6/7/8 screen */
+@media screen and (min-width: 375px) {
+  
+}
+
 /* computer-sized screen */
 @media screen and (min-width: 800px) {
   .navbar__button {

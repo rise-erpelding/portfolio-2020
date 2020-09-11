@@ -53,8 +53,6 @@ class NavBar extends Component {
             <li>
               <Link className="navbar__link" to="/">
                 Home
-
-              <div className="navbar__underline"></div>
               </Link>
             </li>
             {navbarLinks}

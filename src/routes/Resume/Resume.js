@@ -8,9 +8,7 @@ const Resume = () => (
     <main className="resume">
       <ResHeading heading="Summary" />
       <p>
-        I am a full-stack JavaScript developer proficient in ES6, React, Node, and PostgreSQL
-        with six years’ experience in STEM education. I am passionate about learning technologies
-        and online learning.
+        I am an instructional designer and full-stack JavaScript developer proficient in ES6, React, Node, and PostgreSQL with six years’ experience in STEM education. I am passionate about creating opportunities for students through education.
       </p>
       <ResHeading heading="Web Development Skills" />
       <ul>
@@ -24,12 +22,18 @@ const Resume = () => (
           Dev. Tools: Git, GitHub, Chrome Dev Tools, Heroku
         </li>
       </ul>
+      <ResHeading heading="Instructional Design Skills" />
+      <ul>
+        <li>
+          Learning Models & Technologies: Moodle, Adobe Captivate, ADDIE, Bloom's Taxonomy, Mayer's 12 Principles of Multimedia Learning
+        </li>
+      </ul>
       <ResHeading heading="Recent Projects" />
       <ResSectionHeading heading="Mix Ed" />
       <ul>
         <li>
         Full-stack web app that enables teachers to create homogeneous or heterogeneous student
-        groups based on student data.
+        groups based on student data. Project for Bloc web development program.
         </li>
         <li>
           Tech: React, React Router, Node.js, Express.js, JavaScript(ES6), CSS3, PostgreSQL,
@@ -76,8 +80,10 @@ const Resume = () => (
       />
       <ul>
         <li>
-          Developed, launched, and maintained an online, six-part childbirth education course
-          for expectant families, working with a subject-matter expert.
+          Researched and guided decision-making processes regarding online course delivery platforms and learning technologies for converting six-part childbirth education face-to-face course to an online course.
+        </li>
+        <li>
+          Collaborated with SME to adapt and develop learning materials and activities for online childbirth education course, including interactive assessments, text-based content, and decision-making tools for learners.
         </li>
       </ul>
       <ResSectionHeading
@@ -98,13 +104,16 @@ const Resume = () => (
           Trained 4-person team in the creation of original financial literacy learning content
           and animated videos.
         </li>
+        <li>
+          Converted book-based learning assessment materials to online format using CMS.
+        </li>
       </ul>
       <ResSectionHeading
         heading="Navarre High School | Teacher, Virtual Learning Facilitator | August 2011 - June 2014"
       />
       <ul>
         <li>
-          Developed and delivered the high school math curriculum.
+          Developed and delivered high school math curriculum for Geometry and AP Statistics classes.
         </li>
         <li>
           Maintained communication with students, parents, administrators, and guidance counselors
@@ -115,7 +124,7 @@ const Resume = () => (
         </li>
       </ul>
       <ResHeading heading="Education" />
-      <ResSectionHeading heading="Bloc | Immersive Web Development Program | Expected Graduation Date: August 2020" />
+      <ResSectionHeading heading="Bloc | Immersive Web Development Program | Expected Graduation Date: September 2020" />
       <ul>
         <li>
           Currently completing intensive full-stack web-development course, learning HTML and CSS,

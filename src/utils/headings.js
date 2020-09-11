@@ -17,13 +17,13 @@ export function SectionHeading(props) {
 export function ResHeading(props) {
   const { heading } = props;
   return (
-    <h2>{heading}</h2>
+    <h2 className="resume-heading">{heading}</h2>
   );
 }
 
 export function ResSectionHeading(props) {
   const { heading } = props;
   return (
-    <h3>{heading}</h3>
+    <h3 className="resume-heading">{heading}</h3>
   );
 }

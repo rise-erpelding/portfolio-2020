@@ -14,6 +14,12 @@
   font-family: 'Roboto Condensed';
 }
 
+.resume-heading {
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+  color: #315B73;
+}
+
 /* hero */
 .hero > h1 {
   font-family: 'Roboto Condensed';

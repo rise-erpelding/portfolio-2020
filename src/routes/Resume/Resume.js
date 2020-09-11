@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
-import { ResHeading, ResSectionHeading } from '../../utils/headings';
+import { ResHeading, ResSectionHeading, ResSectionHeadingWithLink } from '../../utils/headings';
 
 const Resume = () => (
   <>
@@ -29,7 +29,11 @@ const Resume = () => (
         </li>
       </ul>
       <ResHeading heading="Recent Projects" />
-      <ResSectionHeading heading="Mix Ed" />
+      <ResSectionHeadingWithLink
+        heading="Mix Ed"
+        href="https://mixed-app.vercel.app/"
+        aria="link to Mix Ed project"
+      />
       <ul>
         <li>
         Full-stack web app that enables teachers to create homogeneous or heterogeneous student
@@ -40,7 +44,11 @@ const Resume = () => (
           Jest, Mocha, Chai
         </li>
       </ul>
-      <ResSectionHeading heading="FarmPicks" />
+      <ResSectionHeadingWithLink
+        heading="FarmPicks"
+        href="https://farmpicks.vercel.app/"
+        aria="link to FarmPicks project"
+      />
       <ul>
         <li>
           Full-stack web app that enables users to get information about local small farms,
@@ -52,7 +60,11 @@ const Resume = () => (
           Jest, Mocha, Chai
         </li>
       </ul>
-      <ResSectionHeading heading="Rabbit Hole" />
+      <ResSectionHeadingWithLink
+        heading="Rabbit Hole"
+        href="https://rise-erpelding.github.io/rabbit-hole/"
+        aria="link to Rabbit Hole project"
+      />
       <ul>
         <li>
           jQuery web app that uses ListenNotes and Dandelion APIs to enable users to search
@@ -63,7 +75,11 @@ const Resume = () => (
           Tech: JavaScript(ES6), HTML5, CSS3, jQuery
         </li>
       </ul>
-      <ResSectionHeading heading="GRE Vocabulary Quiz" />
+      <ResSectionHeadingWithLink
+        heading="GRE Vocabulary Quiz"
+        href="https://rise-erpelding.github.io/jquery-quiz-app/"
+        aria="link to GRE Vocabulary Quiz project"
+      />
       <ul>
         <li>
           jQuery web app that helps users to study English vocabulary words that may appear

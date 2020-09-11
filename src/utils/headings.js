@@ -27,3 +27,20 @@ export function ResSectionHeading(props) {
     <h3 className="resume-heading">{heading}</h3>
   );
 }
+
+export function ResSectionHeadingWithLink(props) {
+  const { heading, href, aria } = props;
+  return (
+    <h3 className="resume-heading--with-link">{heading} 
+      {' '}
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={aria}
+      >
+        (Link)
+      </a>
+    </h3>
+  );
+}

@@ -7,6 +7,7 @@ import Hero from './routes/Hero/Hero';
 import About from './routes/About/About';
 import Projects from './routes/Projects/Projects';
 import Resume from './routes/Resume/Resume';
+import Contact from './routes/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 
@@ -32,6 +33,10 @@ function App() {
           <Route
             path="/resume"
             component={Resume}
+          />
+          <Route
+            path="/contact"
+            component={Contact}
           />
         </Switch>
 

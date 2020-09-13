@@ -27,8 +27,9 @@ const About = (props) => (
           from Florida State University. This ultimately led to my desire to learn more about the
           code and technologies that power online learning tools and experiences. After completing
           a full-stack web development apprenticeship learning HTML, CSS, JavaScript, jQuery, React,
-          Node, and Postgres, my goal is to create solutions that improve learning experiences and
-          further eliminate the limits of what learners think they can do.
+          Node, and Postgres, I am eager to be part of a team that helps to create solutions to 
+          improve learning experiences and further eliminate the limits of what learners think they
+          can do.
         </p>
         <p>
           If I won the lottery, I’d probably spend (some of) the money on learning something new.

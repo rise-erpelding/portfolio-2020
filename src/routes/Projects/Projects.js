@@ -34,6 +34,7 @@ const Projects = () => {
         imgSrc={mixEd}
         imgAlt="mix ed app gif"
         summary={mixEdProj.summary}
+        background={mixEdProj.background}
         technologies={mixEdProj.technologiesList}
       />
       <Project
@@ -46,6 +47,7 @@ const Projects = () => {
         imgSrc={farmpicks}
         imgAlt="farmpicks app gif"
         summary={farmpicksProj.summary}
+        background={farmpicksProj.background}
         technologies={farmpicksProj.technologiesList}
       />
       <Project
@@ -57,6 +59,7 @@ const Projects = () => {
         imgSrc={rabbitHole}
         imgAlt="rabbit hole app gif"
         summary={rabbitHoleProj.summary}
+        background={rabbitHoleProj.background}
         technologies={rabbitHoleProj.technologiesList}
       />
       <Project
@@ -68,6 +71,7 @@ const Projects = () => {
         imgSrc={greQuizApp}
         imgAlt="gre quiz app gif"
         summary={quizProj.summary}
+        background={quizProj.background}
         technologies={quizProj.technologiesList}
       />
     </main>

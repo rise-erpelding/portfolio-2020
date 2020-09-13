@@ -25,9 +25,10 @@ const Project = (props) => {
       </a>
       {props.backEndRepo ? ` | ` : '' }
       {props.backEndRepo ? <a href={props.backEndRepo} target="_blank" rel="noopener noreferrer">Back End Repo</a> : '' }
-      <p className="project--description">
-        {props.summary}
-      </p>
+      <div className="project--description">
+        <p>{props.summary}</p>
+        <p>{props.background}</p>
+      </div>
       </div>
       <div className="project__image">
       <img className="project-gif--mobile" src={props.mobileImgSrc} alt={props.imgAlt} />

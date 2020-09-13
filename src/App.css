@@ -262,13 +262,15 @@ footer {
 
 
 
-/* XL-sized screen */
+/* XL-sized screen & up */
 @media screen and (min-width: 1000px) {
   .hero > p {
     font-size: 3em;
     padding: 8vh 10vw;
   }
+}
 
+@media screen and (min-width: 1200px) {
   .project {
     display: flex;
   }
@@ -279,5 +281,8 @@ footer {
 
   .project__image {
     padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }

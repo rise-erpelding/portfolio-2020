@@ -15,7 +15,7 @@ const projectStore = [
     summary: `This is a quiz app built using JavaScript and jQuery. Intended for aspiring graduate students studying for the GRE, the app tests users’ knowledge of
     GRE vocabulary words via multiple-choice questions, giving examples of the words in a
     context similar to what a user might encounter in graduate-level studies.`,
-    background: `There are many apps out there today that students can use to study GRE vocabulary, but often the vocabulary words appear without context. This app puts each vocabulary word in context, using examples from popular literature and current news to make the meaning of the word stand out more.`,
+    background: `I built this app because it is really valuable when studying vocabulary words to see them used in context. Further, seeing the words used in the news or in popular fiction is often more interesting and engaging to students.`,
     technologiesList: [
       {
         name: 'Jquery',
@@ -69,7 +69,7 @@ const projectStore = [
     to search and browse farms and get information about them. Users can also save farms
     to their favorites to revisit later, and be part of the community effort to improve
     existing information about farms.`,
-    background: `The rise of COVID-19 in March and April of 2020 made many Americans question if whether they could be obtaining the food they eat in a more sustainable and ethical way. While supporting small farms is a great idea for so many reasons, finding information on these farms and ordering products from them is often still much more time-consuming than shopping at the local grocery store. FarmPicks seeks to assist with that by providing directory-like information about farms and specifically including information about how to obtain a farm's products.`,
+    background: `I built this app because I saw that the rise of COVID-19 in March and April of 2020 made many Americans question if whether they could be obtaining the food they eat in a more sustainable and ethical way. While supporting small farms is a great idea for so many reasons, finding information on these farms and ordering products from them is often still much more time-consuming than shopping at the local grocery store. FarmPicks seeks to assist with that by providing directory-like information about farms and specifically including information about how to obtain a farm's products.`,
     technologiesList: [
       {
         name: 'React',
@@ -104,8 +104,8 @@ const projectStore = [
     frontEndRepo: 'https://github.com/rise-erpelding/mixed-app',
     backEndRepo: 'https://github.com/rise-erpelding/mixed-api',
     liveLink: 'https://mixed-app.vercel.app/',
-    summary: `Mix Ed is a group generator app that allows K-12 teachers to create student groups based on student data. Teachers input students' names and decide what kinds of categories they'd like to form groups based upon (for instance, test scores, personality type, topic of interest, or favorite book), then provide a value for each student within that category. Then, teachers can decide on group size and whether students within each group should be similar or whether they should be different from each other, and click generate. Adjusting these groups is a breeze--teachers can drag and drop students' names to edit groups--and generated groupings can be saved according to class for easy access or editing later on.`,
-    background: `Group-based learning has so many benefits, but generating appropriate groups for students can be time-consuming, because a well-formed group often takes into account each student's abilities, personality, and interests, among other factors. There are a few existing group generator sites for teachers, but all group students randomly. Mix Ed makes more intelligent groups using student data, which often already exists in the teacher's gradebook.`,
+    summary: `Mix Ed is a group generator app that allows K-12 teachers to create student groups based on student data. Teachers input students' names and grouping data for each student. Then, teachers can decide on group attributes and click generate. Adjusting these groups is a breeze--teachers can drag and drop students' names to edit groups--and generated groupings can be saved according to class for easy access or editing later on.`,
+    background: `I built this app because group-based learning has so many benefits, but existing group generator apps only generate groups randomly. A well-formed group that takes into account the qualities of the student (such as abilities, personality, and interests) can make a big difference in student learning, but generating appropriate groups for students can be time-consuming. Mix Ed aims to solve that problem by creating intelligent groups using student data, which often already exists in the teacher's gradebook.`,
     technologiesList: [
       {
         name: 'React',

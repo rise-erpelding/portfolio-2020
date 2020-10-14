@@ -1,7 +1,6 @@
 import React from 'react';
 import { SectionHeading } from '../../utils/headings';
 const Project = (props) => {
-  console.log(props.technologies);
   const technologies = props.technologies.map((logo, index) => 
     <img
         key={logo.name + index}

@@ -8,12 +8,12 @@ const Resume = () => (
     <main className="resume">
       <ResHeading heading="Summary" />
       <p>
-        I am an instructional designer and full-stack JavaScript developer proficient in ES6, React, Node, and PostgreSQL with six years’ experience in STEM education. I am passionate about creating opportunities for students through education.
+        I am a full-stack JavaScript developer proficient in ES6, React, Node, and PostgreSQL with six years’ experience in STEM education. I am passionate about creating opportunities for students through education.
       </p>
       <ResHeading heading="Web Development Skills" />
       <ul>
         <li>
-          Front-End: JavaScript, React, React Router, Enzyme, jQuery, HTML5, CSS3
+          Front-End: JavaScript, React, React Router, Enzyme, jQuery, HTML5, CSS3, SASS
         </li>
         <li>
           Back-End: Node.js, Express.js, PostgreSQL, Mocha and Chai, RESTful APIs
@@ -22,12 +22,12 @@ const Resume = () => (
           Dev. Tools: Git, GitHub, Chrome Dev Tools, Heroku
         </li>
       </ul>
-      <ResHeading heading="Instructional Design Skills" />
+      {/* <ResHeading heading="Instructional Design Skills" />
       <ul>
         <li>
           Learning Models & Technologies: Moodle, Adobe Captivate, ADDIE, Bloom's Taxonomy, Mayer's 12 Principles of Multimedia Learning
         </li>
-      </ul>
+      </ul> */}
       <ResHeading heading="Recent Projects" />
       <ResSectionHeadingWithLink
         heading="Mix Ed"
@@ -92,6 +92,14 @@ const Resume = () => (
       </ul>
       <ResHeading heading="Experience" />
       <ResSectionHeading
+        heading="DataPlor | Frontend Engineer, Contract | September 2020-Present"
+      />
+      <ul>
+        <li>
+        Developed front-end features and updated code for for web application using React, Bootstrap, and SASS.
+        </li>
+      </ul>
+      <ResSectionHeading
         heading="Valiant Childbirth | Instructional Designer | July 2017 - June 2019"
       />
       <ul>
@@ -140,10 +148,10 @@ const Resume = () => (
         </li>
       </ul>
       <ResHeading heading="Education" />
-      <ResSectionHeading heading="Bloc | Immersive Web Development Program | Expected Graduation Date: September 2020" />
+      <ResSectionHeading heading="Bloc | Immersive Web Development Program" />
       <ul>
         <li>
-          Currently completing intensive full-stack web-development course, learning HTML and CSS,
+          Completed intensive full-stack web-development course, learning HTML and CSS,
           JavaScript, jQuery, React, Node.js, Express, PostgreSQL, and data structures and
           algorithms, developing projects while keeping in mind agile best practices, web
           accessibility, mobile-first development, and test-driven development.

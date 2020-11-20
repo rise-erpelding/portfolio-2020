@@ -1,0 +1,46 @@
+.hero > h1 {
+  font-family: 'Roboto Condensed';
+  font-size: 2em;
+  padding: 10px 10vw;
+}
+
+.hero__gradient {
+  background: #283c86;
+  background: -webkit-linear-gradient(to right, #397960, #283c86);
+  background: linear-gradient(to right, #397960, #283c86);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 500px) {
+  .hero > h1 {
+    font-size: 2em;
+    padding: 10vh 10vw;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .hero > h1 {
+    font-size: 2.3em;
+    padding: 10vh 10vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .hero > h1 {
+    font-size: 2.7em;
+    padding: 7vh 10vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hero > p {
+    font-size: 3em;
+    padding: 8vh 10vw;
+  }
+}

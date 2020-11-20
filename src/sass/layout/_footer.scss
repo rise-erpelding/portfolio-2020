@@ -1,0 +1,39 @@
+footer {
+  text-align: center;
+  height: 70px;
+  padding-bottom: 10px;
+}
+
+.footer__icons {
+  font-size: 1.6em;
+  padding-bottom: 10px;
+}
+
+.footer__icon {
+  padding: 0px 10px;
+}
+
+.footer__icon--github {
+  color: #2F5676;
+}
+
+.footer__icon--linkedin {
+  color: #376F67;
+}
+
+.footer__icon--envelope {
+  color: #3E8957;
+}
+
+.footer__copyright {
+  background: #283c86;
+  background: -webkit-linear-gradient(to left, #397960, #283c86);
+  background: linear-gradient(to left, #397960, #283c86);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}

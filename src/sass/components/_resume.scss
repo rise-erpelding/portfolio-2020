@@ -1,0 +1,32 @@
+.resume {
+  text-align: left;
+  padding: 10px 5vw;
+}
+
+.resume-heading,
+.resume-heading--with-link {
+  font-family: 'Roboto Condensed';
+  color: #315B73;
+}
+
+.resume-heading--with-link > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #09203f;
+  font-family: 'Cabin';
+  font-size: 14px;
+}
+
+.resume-heading--with-link > a:hover {
+  background: #283c86;
+  background: -webkit-linear-gradient(to left, #45a247, #283c86);
+  background: linear-gradient(to left, #45a247, #283c86);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  transition: 0.2s ease-in;
+}

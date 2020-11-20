@@ -1,0 +1,25 @@
+.about__img--container {
+  text-align: center;
+}
+
+.about__img {
+  width: 30vw;
+  max-width: 300px;
+}
+
+.about {
+  text-align: left;
+  font-size: 1.1em;
+  padding: 0px 60px;
+  line-height: 170%;
+}
+
+@media screen and (min-width: 800px) {
+  .about__img {
+    padding: 30px 20px;
+  }
+
+  .about {
+    display: flex;
+  }
+}

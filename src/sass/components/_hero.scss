@@ -5,9 +5,9 @@
 }
 
 .hero__gradient {
-  background: #283c86;
-  background: -webkit-linear-gradient(to right, #397960, #283c86);
-  background: linear-gradient(to right, #397960, #283c86);
+  background: $medium-primary;
+  background: -webkit-linear-gradient($hero-text-gradient);
+  background: linear-gradient($hero-text-gradient);
   background-size: 100%;
   background-repeat: repeat;
   background-clip: text;

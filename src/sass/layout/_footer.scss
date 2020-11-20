@@ -14,21 +14,21 @@ footer {
 }
 
 .footer__icon--github {
-  color: #2F5676;
+  color: $solid-primary;
 }
 
 .footer__icon--linkedin {
-  color: #376F67;
+  color: $solid-primary-secondary;
 }
 
 .footer__icon--envelope {
-  color: #3E8957;
+  color: $solid-secondary;
 }
 
 .footer__copyright {
-  background: #283c86;
-  background: -webkit-linear-gradient(to left, #397960, #283c86);
-  background: linear-gradient(to left, #397960, #283c86);
+  background: $medium-primary;
+  background: -webkit-linear-gradient($faded-medium-gradient);
+  background: linear-gradient($faded-medium-gradient);
   background-size: 100%;
   background-repeat: repeat;
   background-clip: text;

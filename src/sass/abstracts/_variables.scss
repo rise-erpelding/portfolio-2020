@@ -1,0 +1,20 @@
+$black: #000000;
+$white: #ffffff;
+$text-color: #09203f;
+$light-border: #e8e8e8;
+$medium-background: whitesmoke;
+$medium-primary:  #283c86; // primary gradient color
+$faded-primary:  #315B73; // less extreme gradient color
+$solid-primary: #2F5676; // for github icon in footer
+$solid-primary-secondary: #376F67; // for linkedin icon in footer, combination of solid-primary and solid-secondary
+$solid-secondary: #3E8957; // for envelope icon in footer
+$medium-secondary:  #45a247;
+$faded-secondary: #397960;
+$medium-gradient: to left, $medium-secondary, $medium-primary; // colorful gradient, used in links
+$faded-medium-gradient: to left, $faded-secondary, $medium-primary; // less obvious gradient, used in footer, 
+$hero-text-gradient: to right, $faded-secondary, $medium-primary;
+
+
+
+
+//box-shadow: 0 .5rem 1rem rgba($color-black,.2);

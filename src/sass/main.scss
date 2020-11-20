@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap');
 
+@import "abstracts/variables";
+
 @import "base/base";
 @import "base/typography";
 
@@ -9,5 +11,6 @@
 @import "components/projects";
 @import "components/resume";
 
-@import "layout/sections";
 @import "layout/footer";
+@import "layout/navbar";
+@import "layout/sections";

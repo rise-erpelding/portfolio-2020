@@ -11,9 +11,9 @@
 
 .project {
   margin: 5vh 5vw;
-  -webkit-box-shadow: 5px 5px 28px 5px rgba(0,0,0,0.1);
-  -moz-box-shadow: 5px 5px 28px 5px rgba(0,0,0,0.1);
-  box-shadow: 5px 5px 28px 5px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 5px 5px 28px 5px rgba($black,0.1);
+  -moz-box-shadow: 5px 5px 28px 5px rgba($black,0.1);
+  box-shadow: 5px 5px 28px 5px rgba($black,0.1);
   border: 1px solid #e8e8e8;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .project__image {
-  background-color: whitesmoke;
+  background-color: $medium-background;
 }
 
 .project--description {
@@ -60,13 +60,13 @@
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
-  color: #09203f;
+  color: $text-color;
 }
 
 .project__info > a:hover {
-  background: #283c86;
-  background: -webkit-linear-gradient(to left, #45a247, #283c86);
-  background: linear-gradient(to left, #45a247, #283c86);
+  background: $medium-primary;
+  background: -webkit-linear-gradient($medium-gradient);
+  background: linear-gradient($medium-gradient);
   background-size: 100%;
   background-repeat: repeat;
   background-clip: text;

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import './App.css';
+// import './App.scss';
+import './sass/main.scss';
 import NavBar from './components/NavBar/NavBar';
 import Hero from './routes/Hero/Hero';
 import About from './routes/About/About';

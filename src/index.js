@@ -8,7 +8,6 @@ import {
   faTimes
 } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

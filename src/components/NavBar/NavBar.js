@@ -1,16 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const NavBar = () => {
-  const [menuClicked, setMenuClicked] = useState(false);
-
-  const clickMenu = () => {
-    const toggleState = !menuClicked;
-    setMenuClicked(toggleState);
-  }
-
-  const navbarClass = menuClicked ? "navbar show-menu" : "navbar";
   const links = [
     { name: "About", path: "/about" },
     { name: "Projects", path: "/projects" },
@@ -21,7 +12,6 @@ const NavBar = () => {
     <li key={index + '-' + link.name}>
       <NavLink activeClassName="navbar__link--active" className="navbar__link" to={link.path}>
         {link.name}
-        <div className="navbar__underline"></div>
       </NavLink>
 
     </li>
@@ -29,21 +19,12 @@ const NavBar = () => {
 
   return (
     <div className="navbar__container">
-      <button
-        type="button"
-        className="navbar__button"
-        onClick={clickMenu}
-        aria-label="menu"
-      >
-        {
-          menuClicked ?
-            <FontAwesomeIcon className="navbar__cross navbar__icon" icon="times" /> :
-            <FontAwesomeIcon className="navbar__bars navbar__icon" icon="bars" />
-        }
-
-      </button>
-      <nav role="navigation" className={navbarClass}>
-        <ul className="navigation">
+      <input type="checkbox" className="navbar__checkbox" id="nav-button" />
+      <label htmlFor="nav-button" className="navbar__button">
+        <span className="navbar__icon">&nbsp;</span>
+      </label>
+      <nav role="navigation" className="navigation">
+        <ul className="navigation__list">
           <li>
             <Link className="navbar__link" to="/">
               Home
@@ -52,7 +33,6 @@ const NavBar = () => {
           {navbarLinks}
         </ul>
       </nav>
-
     </div>
   );
 }

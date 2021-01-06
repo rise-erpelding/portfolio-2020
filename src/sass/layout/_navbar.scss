@@ -1,111 +1,118 @@
 .navbar__container {
-  text-align: right;
+  height: 100px;
 }
 
-/* styling the navbar links: */
-.navigation {
+/* styling the navbar list and links: */
+.navigation__list {
   list-style: none;
   margin: 0;
   padding: 0;
   padding: 5px 10px;
-}
 
-.navigation > li {
-  padding: 10px 10px;
-  font-size: 1.2em;
+  li {
+    padding: 10px 10px;
+    font-size: 1.2em;
+  
+    &:not(:last-child) {
+      border-bottom: 1px solid $light-border;
+    }
+  }
 }
 
 .navbar__link {
-  /* display: inline-block; */
   text-decoration: none;
   color: $text-color;
   text-transform: uppercase;
   cursor: pointer;
-}
 
-/* styling navbar links hover & active: */
-.navbar__link:hover,
-.navbar__link--active {
-  background: $medium-primary;
-  background: -webkit-linear-gradient($medium-gradient);
-  background: linear-gradient($medium-gradient);
-  background-size: 100%;
-  background-repeat: repeat;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  transition: 0.2s ease-in;
-}
+  &:hover,
+  &--active {
+    background: $medium-primary;
+    background: -webkit-linear-gradient($medium-gradient);
+    background: linear-gradient($medium-gradient);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    transition: 0.2s ease-in;
+  }
 
-.navbar__link--active > div {
-  background: $medium-primary;
-  background: -webkit-linear-gradient($medium-gradient);
-  background: linear-gradient($medium-gradient);
 }
 
 /* styling navbar hamburger button */
+.navbar__checkbox {
+  display: none;
+
+  &:checked + .navbar__button .navbar__icon::before {
+  top: 0;
+  transform: rotate(-135deg);
+  }
+  
+  &:checked + .navbar__button .navbar__icon::after {
+    top: 0;
+    transform: rotate(135deg);
+  }
+
+  &:checked + .navbar__button .navbar__icon {
+    background-color: transparent;
+  }
+}
+
 .navbar__button {
-  margin: 10px;
-  height: 40px;
+  position: fixed;
+  background-color: $white;
+  height: 50px;
   width: 50px;
-  position: relative;
-  background-color: transparent;
-  border: none;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
 }
 
 .navbar__icon {
-  font-size: 2.4em;
-  color: $text-color;
+  position: relative;
+  margin-top: 23px;
+
+  &,
+  &::before,
+  &::after {
+    width: 40px;
+    height: 4px;
+    background-color: $text-color;
+    display: inline-block;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all .3s;
+  }
+
+  &::before {
+    top: -11px;
+  }
+  
+  &::after {
+    top: 11px;
+  }
 }
 
 /* styling show/hide of navbar menu */
-.navbar {
-  display: none;
-  position: absolute;
-  right: 0px;
+.navigation {
+  position: fixed;
+  top: -200px;
+  opacity: 0;
+  right: 10px;
+  width: 120px;
+  background-color: rgba($white, 0.93);
+  transition: all .3s;
+}
+
+.navbar__checkbox:checked ~ .navigation {
+  opacity: 100;
   top: 60px;
-}
-
-.show-menu {
-  display: flex;
-  flex-direction: column;
-  background: rgba($white, 0.9);
-}
-
-.navbar__underline {
-  display: none;
-}
-
-/* iPhone 6/7/8 screen */
-@media screen and (min-width: 375px) {
-  
-}
-
-/* computer-sized screen */
-@media screen and (min-width: 800px) {
-  .navbar__button {
-    display: none;
-  }
-
-  .navbar {
-    display: block;
-    position: static;
-  }
-
-  .navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    padding: 5px 10px;
-  }
-
-  .navbar__underline {
-    display: inline-block;
-    height: 3px;
-    width: 100%;
-  }
 }

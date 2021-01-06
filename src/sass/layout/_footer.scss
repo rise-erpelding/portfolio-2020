@@ -1,39 +1,39 @@
-footer {
+.footer {
   text-align: center;
   height: 70px;
   padding-bottom: 10px;
-}
 
-.footer__icons {
-  font-size: 1.6em;
-  padding-bottom: 10px;
-}
+  &__icons {
+    font-size: 1.6em;
+    padding-bottom: 10px;
+  }
 
-.footer__icon {
-  padding: 0px 10px;
-}
+  &__icon {
+    padding: 0px 10px;
 
-.footer__icon--github {
-  color: $solid-primary;
-}
+    &--github {
+      color: $solid-primary;
+    }
 
-.footer__icon--linkedin {
-  color: $solid-primary-secondary;
-}
+    &--linkedin {
+      color: $solid-primary-secondary;
+    }
 
-.footer__icon--envelope {
-  color: $solid-secondary;
-}
+    &--envelope {
+      color: $solid-secondary;
+    }
+  }
 
-.footer__copyright {
-  background: $medium-primary;
-  background: -webkit-linear-gradient($faded-medium-gradient);
-  background: linear-gradient($faded-medium-gradient);
-  background-size: 100%;
-  background-repeat: repeat;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
+  &__copyright {
+    background: $medium-primary;
+    background: -webkit-linear-gradient($faded-medium-gradient);
+    background: linear-gradient($faded-medium-gradient);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
 }

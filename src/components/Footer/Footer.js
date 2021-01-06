@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = (props) => (
-  <footer>
+  <footer className="footer">
     <div className="footer__icons">
       <a
         href="https://github.com/rise-erpelding"

@@ -1,13 +1,40 @@
 .resume {
   text-align: left;
-  padding: 10px 5vw;
+  // padding: 10px 5vw;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 56rem) {
+    flex-direction: row;
+  }
+
+  &__left {
+    margin-top: 10rem;
+    flex-basis: 30%;
+    text-align: center;
+  }
+
+  &__right {
+    flex-basis: 65%;
+    
+  
+    @media (min-width: 900px) {
+      border-left: 1px solid black;
+    }  
+  }
+
+  &__header,
+  &__section {
+    margin: 1rem;
+    padding: 1rem;
+  }
 }
 
-.resume-heading,
-.resume-heading--with-link {
-  font-family: 'Roboto Condensed';
-  color: $faded-primary;
-}
+// .resume-heading,
+// .resume-heading--with-link {
+//   font-family: 'Roboto Condensed';
+//   color: $faded-primary;
+// }
 
 .resume-heading--with-link > a {
   cursor: pointer;

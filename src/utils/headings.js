@@ -17,21 +17,21 @@ export function SectionHeading(props) {
 export function ResHeading(props) {
   const { heading } = props;
   return (
-    <h2 className="resume-heading">{heading}</h2>
+    <h3 className="resume-heading">{heading}</h3>
   );
 }
 
 export function ResSectionHeading(props) {
   const { heading } = props;
   return (
-    <h3 className="resume-heading">{heading}</h3>
+    <h4 className="resume-heading">{heading}</h4>
   );
 }
 
 export function ResSectionHeadingWithLink(props) {
   const { heading, href, aria } = props;
   return (
-    <h3 className="resume-heading--with-link">{heading} 
+    <h4 className="resume-heading--with-link">{heading} 
       {' '}
       <a
         href={href}
@@ -41,6 +41,6 @@ export function ResSectionHeadingWithLink(props) {
       >
         (Link)
       </a>
-    </h3>
+    </h4>
   );
 }

@@ -54,7 +54,7 @@ const Resume = () => (
           />
           <ul>
             <li>
-              (In Progress). JavaScript web app allowing users to create a grid of colored tiles and play a game putting the mixed-up tiles back into the right order.
+              JavaScript web app allowing users to create a grid of colored tiles and play a game putting the mixed-up tiles back into the right order.
         </li>
             <li>
               Tech: JavaScript(ES6), HTML5, CSS3, Jest, Stryker
@@ -124,7 +124,18 @@ const Resume = () => (
         <section className="resume__section resume__experience">
           <ResHeading heading="Experience" />
           <ResSectionHeading
-            heading="Sparkbox | Full-stack Web Development Apprentice | January 2021 - Present"
+            heading="Sparkbox | Developer | August 2021 - Present"
+          />
+          <ul>
+            <li>
+              Developed new features for web apps, working with clients and in-house agency teams, incorporating accessibility, performance, and test-driven development, working with a globally distributed team
+        </li>
+            <li>
+              Mentored and taught web development skills through in-house apprenticeship program
+        </li>
+          </ul>
+          <ResSectionHeading
+            heading="Sparkbox | Full-stack Web Development Apprentice | January 2021 - June 2021"
           />
           <ul>
             <li>

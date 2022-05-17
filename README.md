@@ -1,3 +1,5 @@
+Deployed to https://www.rise-erp.com/
+
 ## Icons
 Icons from FontAwesome and Iconscout:
 [Jquery Icon](https://iconscout.com/icons/jquery) by [Icon Mafia](https://iconscout.com/contributors/icon-mafia)
